@@ -30,7 +30,7 @@ exports.dbQuery = function(numQueries, query, callback) {
     if (err) {
       throw err;
     }
-    var dbo = db.db('pythonprograms');
+    var dbo = db.db('ocamlprograms');
     
     // Search if we have a valid search query
     if (query && query.length > 0) {

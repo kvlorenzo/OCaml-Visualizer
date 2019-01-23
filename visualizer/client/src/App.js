@@ -43,7 +43,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="Title">
-          <h1>Python Tutor Data Viewer</h1>
+          <h1>OCaml Visualizer</h1>
         </div>
         <div className="FormArea">
           <Form queryPrograms={this.queryPrograms} />
